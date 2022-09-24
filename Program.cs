@@ -12,7 +12,11 @@ namespace Dice_Game
 
             if (mode == "singleplayer")
             {
-                SinglePlayer();
+                Console.Write("How many rounds?: ");
+
+                int rounds = int.Parse(Console.ReadLine());
+
+                SinglePlayer(rounds);
             }
             else if (mode == "multiplayer")
             {
@@ -24,19 +28,24 @@ namespace Dice_Game
 
                 string playerTwo = Console.ReadLine();
 
-                MultiPlayer(playerOne, playerTwo);
+                Console.Write("How many rounds?: ");
+
+                int rounds = int.Parse(Console.ReadLine());
+
+                MultiPlayer(playerOne, playerTwo, rounds);
             }
         }
 
-        static void SinglePlayer()
+        static void SinglePlayer(int rounds)
         {
+         
             int playerRandomNum;
 
             int enemyRandonNum;
 
             Random randomNums = new Random();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < rounds; i++)
             {
                 Console.WriteLine("Press ENTER to roll the dice.");
 
@@ -65,7 +74,7 @@ namespace Dice_Game
             Console.ReadKey();
         }
 
-        static void MultiPlayer(string playerOne, string playerTwo)
+        static void MultiPlayer(string playerOne, string playerTwo, int rounds)
         {
             
             int playerOneRandomNum;
@@ -74,7 +83,7 @@ namespace Dice_Game
 
             Random randomNums = new Random();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < rounds; i++)
             {
                 Console.WriteLine("Press ENTER to roll the dice.");
 
