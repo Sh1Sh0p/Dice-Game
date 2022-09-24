@@ -43,6 +43,10 @@ namespace Dice_Game
 
             int enemyRandonNum;
 
+            int playerCount = 0;
+
+            int enemyCount = 0;
+
             Random randomNums = new Random();
 
             for (int i = 0; i < rounds; i++)
@@ -60,16 +64,30 @@ namespace Dice_Game
                 if (playerRandomNum > enemyRandonNum)
                 {
                     Console.WriteLine("You won!");
+
+                    playerCount++;
+
+                    Console.WriteLine("----------");
                 }
                 else if (playerRandomNum < enemyRandonNum)
                 {
                     Console.WriteLine("Enemy won!");
+
+                    enemyCount++;
+
+                    Console.WriteLine("----------");
                 }
                 else if (playerRandomNum == enemyRandonNum)
                 {
                     Console.WriteLine("Tie!");
+                    playerCount++;
+                    enemyCount++;
+
+                    Console.WriteLine("----------");
                 }
             }
+
+            Console.WriteLine($"Final result: {playerCount}:{enemyCount} (Player:Enemy).");
 
             Console.ReadKey();
         }
@@ -80,6 +98,10 @@ namespace Dice_Game
             int playerOneRandomNum;
 
             int playerTwoRandomNum;
+
+            int playerOneCount = 0;
+
+            int playerTwoCount = 0;
 
             Random randomNums = new Random();
 
@@ -98,16 +120,31 @@ namespace Dice_Game
                 if (playerOneRandomNum > playerTwoRandomNum)
                 {
                     Console.WriteLine($"{playerOne} won!");
+
+                    playerOneCount++;
+
+                    Console.WriteLine("----------");
                 }
                 else if (playerOneRandomNum < playerTwoRandomNum)
                 {
                     Console.WriteLine($"{playerTwo} won!");
+
+                    playerTwoCount++;
+
+                    Console.WriteLine("----------");
                 }
                 else if (playerOneRandomNum == playerTwoRandomNum)
                 {
                     Console.WriteLine("Tie!");
+
+                    playerOneCount++;
+                    playerTwoCount++;
+
+                    Console.WriteLine("----------");
                 }
             }
+
+            Console.WriteLine($"Final result: {playerOneCount}:{playerTwoCount} ({playerOne}:{playerTwo}).");
 
             Console.ReadKey();
         }
