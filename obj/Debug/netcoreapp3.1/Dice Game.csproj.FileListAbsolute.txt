@@ -1,0 +1,14 @@
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.exe
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.deps.json
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.runtimeconfig.json
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.runtimeconfig.dev.json
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.dll
+C:\Users\Preslav\source\repos\Dice Game\bin\Debug\netcoreapp3.1\Dice Game.pdb
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.csproj.AssemblyReference.cache
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.AssemblyInfoInputs.cache
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.AssemblyInfo.cs
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.csproj.CoreCompileInputs.cache
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.dll
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.pdb
+C:\Users\Preslav\source\repos\Dice Game\obj\Debug\netcoreapp3.1\Dice Game.genruntimeconfig.cache
