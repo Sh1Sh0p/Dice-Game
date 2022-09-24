@@ -20,11 +20,11 @@ namespace Dice_Game
             }
             else if (mode == "multiplayer")
             {
-                Console.Write("Player 1 name:");
+                Console.Write("Player 1 name: ");
 
                 string playerOne = Console.ReadLine();
 
-                Console.Write("Player 2 name:");
+                Console.Write("Player 2 name: ");
 
                 string playerTwo = Console.ReadLine();
 
